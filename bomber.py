@@ -24,7 +24,7 @@ try:
     from colorama import Fore, Style
 except ImportError:
     print("\tSome dependencies could not be imported (possibly not installed)")
-    print(
+    print(jj
         "Type `pip3 install -r requirements.txt` to "
         " install all required packages")
     sys.exit(1)
